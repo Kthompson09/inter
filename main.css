@@ -13,12 +13,12 @@
                 }
     
     body{
-    background-color: lightsteelblue;
+    background-color: rgba(245, 189, 6, 0.265); 
     font-family: 'Inter', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 3rem, 80ch);
+    width: min(100% - 3rem, 80ch);  /* i missed what this was for oops */
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
@@ -30,28 +30,41 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
+    "v h" /* how to swap the 2 sections of the page */
     "a a";
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: gray; /* make same color as nav bar */
+    /* i can add hight in the footer ex is height:200pz */
 }
 
-/* variable font animation */
+/* font style area  */
+h2{
+    color: rgb(226, 2, 226);
+    font-variation-settings: "opsz" 14, "wght" 100; /* changes the headers to section headers */
+    
+    /* 
+        font-weight:20; 
+        text-align: center;
+        font-size: 5em;
+        animation: weightChange 7s infinite;
+        come back to this later!!!
+    */
+}
 h3{
     font-weight:20; 
     text-align: center;
