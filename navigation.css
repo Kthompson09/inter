@@ -68,7 +68,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: rgb(105, 230, 10); /* this changes hover color */
+      color: rgba(255, 230, 0, 0.986); /* this changes hover color */
   }
   
   .nav-checkbox:checked ~ nav {
@@ -95,7 +95,7 @@
   
           display: block;
           /* color of the hamburger menu */
-          background: rgb(91, 30, 30);
+          background: rgba(255, 230, 0, 0.986);
           /* how far the hamburger menu is from the top */
           margin-top:7px;
           height: 3px;
