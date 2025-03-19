@@ -16,13 +16,9 @@
   }
 
 
-
-
-
-
   header {
     /* where to set the color of the nav bar */
-      background: rgb(40, 111, 227);
+      background: rgb(51, 51, 153);/* rgb(40, 111, 227); */
       text-align: center;
       top:0px;
       position: fixed;
@@ -59,7 +55,7 @@
   }
   /* where to color of the bar */
   nav a {
-      color: black;
+      color: rgb(255, 255, 255);
       text-decoration: none;
       font-size: 1.2rem;
       text-transform: uppercase;
@@ -68,7 +64,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: rgba(255, 230, 0, 0.986); /* this changes hover color */
+      color:rgb(233, 216, 255); /* this changes hover color */
   }
   
   .nav-checkbox:checked ~ nav {
@@ -95,7 +91,7 @@
   
           display: block;
           /* color of the hamburger menu */
-          background: rgba(255, 230, 0, 0.986);
+          background: rgba(218, 83, 175);
           /* how far the hamburger menu is from the top */
           margin-top:7px;
           height: 3px;
@@ -158,7 +154,7 @@
       content: '';
       display: block;
       height: 3px;
-      background: black;
+      background: rgb(163, 175, 180);/* Sets the color of the underline */
       position: absolute;
       top: 1.1em;
       left: 0;
