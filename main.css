@@ -87,6 +87,29 @@ p{
     }
     
 }
+/* Animation for the variable font sections */
+.size {
+    animation: sizeChange 7s infinite;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
