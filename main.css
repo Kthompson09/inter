@@ -16,14 +16,12 @@
     background-color: rgb(46, 32, 62); 
     font-family: 'Inter', sans-serif;
 }
-
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 80ch);  /* i missed what this was for oops */
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
-
 @media only screen and (min-width:800px){
 .page-wrapper{
 display: grid;
@@ -34,7 +32,6 @@ grid-template-areas:
     "v h" /* how to swap the 2 sections of the page */
     "a a";
 }
-
 #history {
 grid-area: h;
 }
@@ -88,27 +85,34 @@ p{
     
 }
 /* Animation for the variable font sections */
+
+h4{
+    font-size: 40px;
+    color: rgb(226, 2, 226);
+    margin:15px;
+}
 .size {
     animation: sizeChange 7s infinite;
-
-
+}
+@keyframes sizeChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 14, "wght" 400;
+    }
+    50%{font-variation-settings: "opsz" 32, "wght" 400;
+    }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Weight {
+    animation: weightChange 7s infinite;
+} 
+@keyframes WeightChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 14, "wght" 100;
+    }
+    50%{font-variation-settings: "opsz" 32, "wght" 900;
+    }
+    
+}
 
 /* variable font that changes on hover */
 .variable-font{
@@ -136,6 +140,17 @@ p{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 /* Custom link with background and border */
+a {display: inline-block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* padding: 20px 20px; */
+    /* margin:60px; */
+    border-radius: 10px;
+    font-size: 16px;
+}
+
 .custom-link {
     display: inline-block;
     padding: 0.5em 1em;
