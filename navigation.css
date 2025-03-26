@@ -5,9 +5,19 @@
   body {
     margin: 0;
   }
-  
-  h1{
-    color:rgb(248, 243, 243);
+
+  /* color sku */
+/* darkest gray 18,19,24*/
+/* shark gray 37,43.54*/
+/* lightest gray 195,197,199*/
+/* neon blue 70,162,157*/
+/* darker blue 241,241,151*/
+
+
+/* Inter name color is h1 */
+
+  h1{ 
+    color:rgb(195 197 199);
     text-align: left;
     text-transform: uppercase;
     padding-left: 5px;
@@ -18,7 +28,7 @@
 
   header {
     /* where to set the color of the nav bar */
-      background: rgb(51, 51, 153);/* rgb(40, 111, 227); */
+      background: rgb(18 ,19, 24);
       text-align: center;
       top:0px;
       position: fixed;
@@ -36,7 +46,7 @@
       padding-top:10px;
       top: 100%;
       left: 0;
-      background: rgb(218, 83, 175);
+      background: rgb(37,43, 54); 
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
@@ -55,7 +65,7 @@
   }
   /* where to color of the bar */
   nav a {
-      color: rgb(255, 255, 255);
+      color: rgb(102,252,239);
       text-decoration: none;
       font-size: 1.2rem;
       text-transform: uppercase;
@@ -63,8 +73,12 @@
       transition: opacity 100ms ease-in-out;
   }
   /* where to change the font color of the nav bar pop-up */
+
+
+  
+
   nav a:hover {
-      color:rgb(233, 216, 255); /* this changes hover color */
+      color:rgb(70, 162, 157); /* this changes hover color */
   }
   
   .nav-checkbox:checked ~ nav {
@@ -91,7 +105,7 @@
   
           display: block;
           /* color of the hamburger menu */
-          background: rgba(218, 83, 175);
+          background: rgba(102,252,239);
           /* how far the hamburger menu is from the top */
           margin-top:7px;
           height: 3px;
