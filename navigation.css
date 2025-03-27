@@ -11,6 +11,7 @@
 /* shark gray 37,43.54*/
 /* lightest gray 195,197,199*/
 /* neon blue 70,162,157*/
+/*OTHER NAV BLUE ALT (56, 65, 82)*/
 /* darker blue 241,241,151*/
 
 
@@ -46,7 +47,7 @@
       padding-top:10px;
       top: 100%;
       left: 0;
-      background: rgb(37,43, 54); 
+      background: rgb(56, 65, 82); 
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;

@@ -54,7 +54,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray; /* make same color as nav bar */
+    background-color: gray; 
     /* i can add hight in the footer ex is height:200pz */
 }
 
@@ -64,13 +64,16 @@ footer{
 /* lightest gray 195,197,199*/
 /* dark blue 70,162,157*/
 /* neon blue 102,252,239*/
+/*OTHER NAV BLUE ALT (56, 65, 82)*/
 
 
 /* font style area  */
 h2{
     color: rgb( 102,252,239);
     font-variation-settings: "opsz" 14, "wght" 100; /* changes the headers to section headers */
-    
+    text-decoration: dotted underline;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(82, 91, 106);
     /* 
         font-weight:20; 
         text-align: center;
@@ -88,7 +91,7 @@ h3{
 }
 p{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: left;
 }
 
