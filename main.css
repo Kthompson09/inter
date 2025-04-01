@@ -23,7 +23,14 @@
 /* lightest gray 195,197,199*/
 /* neon blue 70,162,157*/
 /* darker blue 241,241,151*/
+.hero{
+    background-image: url("assets/hero-sec.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px; 
+    /* PLAYWITH % */
 
+}
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 80ch);  /* i missed what this was for oops */
@@ -87,6 +94,7 @@ h3{
     font-weight:20; 
     text-align: center;
     font-size: 5em;
+    /* top:50%; */
     animation: weightChange 7s infinite;
 }
 p{
