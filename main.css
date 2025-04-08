@@ -27,7 +27,9 @@
     background-image: url("assets/hero-sec.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:600px; 
+    position: relative;
+    height:50vh;
+    /* height:600px;  */
     /* PLAYWITH % */
 
 }
@@ -93,8 +95,10 @@ h3{
     color: white;
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
-    /* top:50%; */
+    font-size: clamp(1.5rem, 5vw, 3rem); /* Dynamically adjusts font size */
+
+    position: absolute;
+    margin-top:150px;
     animation: weightChange 7s infinite;
 }
 p{
